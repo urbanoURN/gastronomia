@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://img.freepik.com/fotos-premium/composicion-flat-lay-comida-mejicana-copyspace_23-2148140309.jpg?w=1380');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 140px;
+}
+
+h1 {
+    margin: 2px;
+    color: #333;
+    margin-top: 50px;
+}
+
+.winners {
+    margin: 20px auto;
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+.winner {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: linear-gradient(to bottom, #FFFFCC, #FFFF99, #FFFF66);
+}
+
+/* Estilos adicionales para los tres primeros lugares */
+.winner:nth-child(1) {
+    background-color: #FFFFCC; /* Amarillo claro */
+}
+
+.winner:nth-child(2) {
+    background-color: #FFFF99; /* Amarillo medio */
+}
+
+.winner:nth-child(3) {
+    background-color: #FFFF66; /* Amarillo oscuro */
+}
