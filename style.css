@@ -1,0 +1,30 @@
+:root{
+    --amarillo: #F0FF42;
+    --verde_calido:#82CD47;
+    --verde_opaco: #54B435;
+    --verde_oscuro:#379237;
+   }
+
+
+*{
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'segoe UI', Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+main#cuerpo_principal {
+    background-color: #435334;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
