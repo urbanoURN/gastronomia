@@ -1,16 +1,25 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('https://www.eldiadecordoba.es/2019/06/27/cordoba/Comida-casera-casa_1367873313_101934342_667x375.jpg');
+    background-image: url('https://img.freepik.com/fotos-premium/composicion-flat-lay-comida-mejicana-copyspace_23-2148140309.jpg?w=1380');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 140px;
 }
 
 h1 {
+    margin: 2px;
     color: #333;
+    margin-top: 50px;
 }
 
 .winners {
     margin: 20px auto;
     max-width: 600px;
+    margin-top: 50px;
 }
 
 .winner {
