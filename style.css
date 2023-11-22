@@ -1,12 +1,11 @@
-:root{
+:root {
     --amarillo: #F0FF42;
-    --verde_calido:#82CD47;
+    --verde_calido: #82CD47;
     --verde_opaco: #54B435;
-    --verde_oscuro:#379237;
-   }
+    --verde_oscuro: #379237;
+}
 
-
-*{
+* {
     box-sizing: border-box;
     transition: all 0.3s;
 }
@@ -14,17 +13,36 @@
 body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 body {
-    font-family: 'segoe UI', Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
     font-size: 13px;
+    background-color: var(--verde_oscuro);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-main#cuerpo_principal {
-    background-color: #435334;
-    height: 100vh;
-    width: 100vw;
-    display: grid;
-    place-items: center;
+#cuerpo_principal {
+    text-align: center;
+}
+
+.gastronomia a {
+    display: block;
+    margin: 10px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--verde_opaco);
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.gastronomia a:hover {
+    background-color: var(--verde_calido);
+    transform: scale(1.1);
 }
